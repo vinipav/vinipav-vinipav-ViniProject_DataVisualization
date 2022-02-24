@@ -1,0 +1,143 @@
+text {
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: rgb(145, 177, 174);
+    shape-rendering: crispEdges;
+}
+
+
+.tick text {
+    fill: black;
+    font-size: 11px;
+}
+
+rect {
+    stroke: blueviolet;
+}
+
+.bar1 {
+    fill: blue;
+}
+
+.bar1:hover {
+    fill: blueviolet;
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    /* box-sizing: border-box; */
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: greenyellow;
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+#nextpage {
+    padding: 12px 10px 75px 1200px;
+
+}
+
+#timel {
+    background-color: rgb(251, 252, 186);
+    height: 87%;
+    width: 50%;
+    float: left;
+}
+
+#timeline1 {
+    background-color: rgb(199, 225, 240);
+    height: 87%;
+    width: 47%;
+    float: left;
+}
+
+#pg{
+    clear: both;
+}
+
+body {
+    margin: 36px;
+}
+
+text {
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: rgb(241, 13, 165);
+    shape-rendering: crispEdges;
+}
+
+.tick text {
+    fill: rgb(12, 9, 226);
+    font-size: 11px;
+}
+
+rect {
+    stroke: rgb(8, 141, 41);
+}
+
+.bar1 {
+    fill: rgb(255, 238, 0);
+}
+
+.bar1:hover {
+    fill: orangered;
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgb(177, 236, 128);
+    color: #fff;
+    border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(223, 142, 160, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
